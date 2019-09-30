@@ -7,7 +7,8 @@ def summon_captain_planet(earth_chants)
   final_chants = []
   i = 0
   while i < earth_chants.length do
-    final_chants<< earth_chants[i]
+    final_chants<< earth_chants[i].capitalize + "!"
+    
   
 end
 
