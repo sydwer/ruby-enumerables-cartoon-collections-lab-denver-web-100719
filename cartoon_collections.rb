@@ -4,7 +4,7 @@ def roll_call_dwarves(attendance_sheet)
 end
 
 def summon_captain_planet(earth_chants)
-  earth_chants.each { |element| element.capitalize}
+  earth_chants.each { |element| "#{element}.capitalize.join " !""}
 end
 
 def long_planeteer_calls# code an argument here
