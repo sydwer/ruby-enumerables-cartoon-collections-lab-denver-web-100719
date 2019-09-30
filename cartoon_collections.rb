@@ -5,7 +5,7 @@ end
 
 def summon_captain_planet(earth_chants)
   capital_chants = earth_chants.map! { |element| element.capitalize}
-  final chants = capital_chants.each
+  final chants = capital_chants.collect
 end
 
 def long_planeteer_calls# code an argument here
