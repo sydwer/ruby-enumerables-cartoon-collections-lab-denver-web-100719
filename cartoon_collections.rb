@@ -15,6 +15,5 @@ end
 
 def find_the_cheese(food_food_fabulous_food)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  answer = food_food_fabulous_food.select { |item| item.include?("cheddar" || "gouda" || "camembert")}
-  answer.join("")
+  food_food_fabulous_food.select { |item| item.include?("cheddar" || "gouda" || "camembert")}
 end
