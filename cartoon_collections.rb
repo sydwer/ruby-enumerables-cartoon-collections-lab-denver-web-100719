@@ -8,8 +8,8 @@ def summon_captain_planet(earth_chants)
   i = 0
   while i < earth_chants.length do
     final_chants<< earth_chants[i].capitalize + "!"
-    
-  
+    i += 1 
+  end 
 end
 
 def long_planeteer_calls# code an argument here
