@@ -10,7 +10,7 @@ def summon_captain_planet(earth_chants)
 end
 
 def long_planeteer_calls(earth_calls)
-  if earth_calls
+  if earth_calls.any? { i
   # Your code here
 end
 
