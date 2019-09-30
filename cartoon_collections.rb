@@ -9,7 +9,8 @@ def summon_captain_planet(earth_chants)
   return final_chants 
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(earth_calls)
+  if 
   # Your code here
 end
 
