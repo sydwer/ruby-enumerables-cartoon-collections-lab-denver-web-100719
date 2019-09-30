@@ -15,12 +15,4 @@ end
 
 def find_the_cheese(food_food_fabulous_food)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if food_food_fabulous_food.include?("cheddar")
-    return "cheddar"
-  else if food_food_fabulous_food.include?("gouda")
-    return "gouda"
-  else if food_food_fabulous_food.include?("camembert")
-      return "camembert"
-  else  
-    nil
-end
+  
