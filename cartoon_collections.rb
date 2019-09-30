@@ -1,5 +1,5 @@
 def roll_call_dwarves(attendance_sheet)
-  attendance_sheet.each_with_index { |name, index| p "#{index + 1}:#{name}" }
+  attendance_sheet.each_with_index { |name, index| p "#{index + 1} #{name}" }
   
 end
 
