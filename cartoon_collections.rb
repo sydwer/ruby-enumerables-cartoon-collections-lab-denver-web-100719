@@ -4,12 +4,7 @@ def roll_call_dwarves(attendance_sheet)
 end
 
 def summon_captain_planet(earth_chants)
-  final_chants = []
-  i = 0
-  while i < earth_chants.length do
-    final_chants<< earth_chants.capitalize + "!"
-    i += 1 
-  end 
+  capital_chants = earth_chants.map!
 end
 
 def long_planeteer_calls# code an argument here
