@@ -10,7 +10,7 @@ def summon_captain_planet(earth_chants)
 end
 
 def long_planeteer_calls(earth_calls)
-  if earth_calls.any? { |characters| characters > 4
+  earth_calls.any? { |call| call.length > 4}
   # Your code here
 end
 
