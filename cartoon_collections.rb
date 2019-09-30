@@ -13,7 +13,7 @@ def long_planeteer_calls(earth_calls)
   earth_calls.any? { |call| call.length > 4}
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(food_food_fabulous_food)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  food_food_fabulous_food.first
 end
