@@ -5,7 +5,7 @@ end
 
 def summon_captain_planet(earth_chants)
   new_chants = earth_chants.map! {|element| element.capitalize }
-  new_chants.each { |chant| chant + !}
+  new_chants.each { |chant| chant + '!'}
   
 end
 
