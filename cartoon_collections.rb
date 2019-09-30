@@ -1,5 +1,5 @@
 def roll_call_dwarves(attendance_sheet)
-  attendance_sheet.each.with_index { |name, index| puts "#{index} #{name}" if name < attendance_sheet.length}
+  attendance_sheet.each.with_index 
   
 end
 
