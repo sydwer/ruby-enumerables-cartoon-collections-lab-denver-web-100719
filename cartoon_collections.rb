@@ -6,7 +6,7 @@ end
 def summon_captain_planet(earth_chants)
   final_chants = []
   new_chants = earth_chants.map {|element| element.capitalize }
-  final_chants.push(new_chants.each {})
+  final_chants.push(new_chants.each {element| element + '!' })
 end
 
 def long_planeteer_calls# code an argument here
