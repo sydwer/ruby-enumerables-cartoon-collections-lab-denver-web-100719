@@ -5,7 +5,9 @@ end
 
 def summon_captain_planet(earth_chants)
   final_chants = []
-  while 
+  i = 0
+  while i < earth_chants.length do
+    
   
 end
 
