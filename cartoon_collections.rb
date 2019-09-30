@@ -4,8 +4,8 @@ def roll_call_dwarves(attendance_sheet)
 end
 
 def summon_captain_planet(earth_chants)
-  new_chants = earth_chants.map! {|element| element.capitalize }
-  new_chants.each { |chant| chant + '!'}
+  final_chants = []
+  while 
   
 end
 
