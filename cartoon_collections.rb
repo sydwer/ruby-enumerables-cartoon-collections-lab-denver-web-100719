@@ -15,6 +15,7 @@ end
 
 def find_the_cheese(food_food_fabulous_food)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  food_food_fabulous_food. 
+  if food_food_fabulous_food.include? ("cheddar" || "gouda" || "camembert") do
+    
     
 end
